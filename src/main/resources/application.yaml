@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: currency-exchange-api
+  datasource:
+    url: jdbc:postgresql://localhost:5438/currency-exchange
+    username: postgres
+    password: 12345
